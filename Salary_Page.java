@@ -85,6 +85,8 @@ public class Salary_Page extends JPanel {
 		T_Id_comp.setBounds(95, 10, 170, 30);
 		T_Id_comp.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_Id_comp.setBorder(null);//去除邊框
+		T_Id_comp.setEnabled(false);
+		T_Id_comp.setDisabledTextColor(Color.BLACK);
 		panel1.add(T_Id_comp);
 		T_Id_comp.setColumns(10);
 		
@@ -97,6 +99,8 @@ public class Salary_Page extends JPanel {
 		T_jobDay.setBounds(385, 10, 185, 30);
 		T_jobDay.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_jobDay.setBorder(null);//去除邊框
+		T_jobDay.setEnabled(false);
+		T_jobDay.setDisabledTextColor(Color.BLACK);
 		panel1.add(T_jobDay);
 		T_jobDay.setColumns(10);
 		
@@ -117,6 +121,8 @@ public class Salary_Page extends JPanel {
 		T_ChineseName.setBounds(95, 10, 170, 30);
 		T_ChineseName.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_ChineseName.setBorder(null);//去除邊框
+		T_ChineseName.setEnabled(false);
+		T_ChineseName.setDisabledTextColor(Color.BLACK);
 		panel2.add(T_ChineseName);
 		T_ChineseName.setColumns(10);
 		
@@ -129,6 +135,8 @@ public class Salary_Page extends JPanel {
 		T_EnglishName.setBounds(385, 10, 185, 30);
 		T_EnglishName.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_EnglishName.setBorder(null);//去除邊框
+		T_EnglishName.setEnabled(false); 
+		T_EnglishName.setDisabledTextColor(Color.BLACK);
 		panel2.add(T_EnglishName);
 		T_EnglishName.setColumns(10);		
 		
@@ -148,6 +156,8 @@ public class Salary_Page extends JPanel {
 		T_BankCode.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_BankCode.setColumns(10);
 		T_BankCode.setBorder(null);
+		T_BankCode.setEnabled(false); 
+		T_BankCode.setDisabledTextColor(Color.BLACK);
 		T_BankCode.setBounds(95, 10, 170, 30);
 		panel3.add(T_BankCode);
 		
@@ -160,6 +170,8 @@ public class Salary_Page extends JPanel {
 		T_BankNumber.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_BankNumber.setColumns(10);
 		T_BankNumber.setBorder(null);
+		T_BankNumber.setEnabled(false);
+		T_BankNumber.setDisabledTextColor(Color.BLACK);
 		T_BankNumber.setBounds(385, 10, 185, 30);
 		panel3.add(T_BankNumber);
 		
@@ -272,10 +284,12 @@ public class Salary_Page extends JPanel {
 		
 		T_Department = new JTextField();
 		T_Department.setFont(new Font("微軟正黑體", Font.BOLD, 20));
-		T_Department.setColumns(10);
 		T_Department.setBorder(null);
+		T_Department.setEnabled(false);
+		T_Department.setDisabledTextColor(Color.BLACK);
 		T_Department.setBounds(95, 10, 170, 30);
 		panel6.add(T_Department);
+		T_Department.setColumns(10);
 		
 		JLabel W_Position = new JLabel("\u8077       \u4F4D");
 		W_Position.setFont(new Font("微軟正黑體", Font.BOLD, 20));
@@ -286,6 +300,8 @@ public class Salary_Page extends JPanel {
 		T_Position.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_Position.setColumns(10);
 		T_Position.setBorder(null);
+		T_Position.setEnabled(false); 
+		T_Position.setDisabledTextColor(Color.BLACK);
 		T_Position.setBounds(385, 10, 185, 30);
 		panel6.add(T_Position);
 		
@@ -305,6 +321,8 @@ public class Salary_Page extends JPanel {
 		T_Principal.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_Principal.setColumns(10);
 		T_Principal.setBorder(null);
+		T_Principal.setEnabled(false); 
+		T_Principal.setDisabledTextColor(Color.BLACK);
 		T_Principal.setBounds(95, 10, 170, 30);
 		panel7.add(T_Principal);
 		
@@ -317,6 +335,8 @@ public class Salary_Page extends JPanel {
 		T_EmpInsurance.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_EmpInsurance.setColumns(10);
 		T_EmpInsurance.setBorder(null);
+		T_EmpInsurance.setEnabled(false); 
+		T_EmpInsurance.setDisabledTextColor(Color.BLACK);
 		T_EmpInsurance.setBounds(385, 10, 185, 30);
 		panel7.add(T_EmpInsurance);
 		
@@ -336,6 +356,8 @@ public class Salary_Page extends JPanel {
 		T_Allowance.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_Allowance.setColumns(10);
 		T_Allowance.setBorder(null);
+		T_Allowance.setEnabled(false); 
+		T_Allowance.setDisabledTextColor(Color.BLACK);
 		T_Allowance.setBounds(95, 10, 170, 30);
 		panel8.add(T_Allowance);
 		
@@ -348,6 +370,8 @@ public class Salary_Page extends JPanel {
 		T_HealthInsurance.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_HealthInsurance.setColumns(10);
 		T_HealthInsurance.setBorder(null);
+		T_HealthInsurance.setEnabled(false);
+		T_HealthInsurance.setDisabledTextColor(Color.BLACK);
 		T_HealthInsurance.setBounds(385, 10, 185, 30);
 		panel8.add(T_HealthInsurance);
 		
@@ -366,6 +390,8 @@ public class Salary_Page extends JPanel {
 		T_TotalAllowance.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_TotalAllowance.setColumns(10);
 		T_TotalAllowance.setBorder(null);
+		T_TotalAllowance.setEnabled(false);
+		T_TotalAllowance.setDisabledTextColor(Color.BLACK);
 		T_TotalAllowance.setBounds(95, 10, 170, 30);
 		panel9.add(T_TotalAllowance);
 		
@@ -379,6 +405,8 @@ public class Salary_Page extends JPanel {
 		T_SalaryFull.setFont(new Font("微軟正黑體", Font.BOLD, 20));
 		T_SalaryFull.setColumns(10);
 		T_SalaryFull.setBorder(null);
+		T_SalaryFull.setEnabled(false);
+		T_SalaryFull.setDisabledTextColor(Color.BLACK);
 		T_SalaryFull.setBounds(385, 10, 185, 30);
 		panel9.add(T_SalaryFull);
 		
@@ -396,21 +424,21 @@ public class Salary_Page extends JPanel {
 		
 		
 		
-		T_Id_comp.setEditable(false); T_Id_comp.setDisabledTextColor(Color.BLACK);		
-		T_Department.setEditable(false); T_Department.setDisabledTextColor(Color.BLACK);		
-		T_jobDay.setEditable(false); T_jobDay.setDisabledTextColor(Color.BLACK);		
-		T_ChineseName.setEditable(false); T_ChineseName.setDisabledTextColor(Color.BLACK);		
-		T_EnglishName.setEditable(false);  T_EnglishName.setDisabledTextColor(Color.BLACK);		
-		T_Position.setEditable(false);  T_Position.setDisabledTextColor(Color.BLACK);		
-		T_BankCode.setEditable(false);  T_BankCode.setDisabledTextColor(Color.BLACK);		
-		T_BankNumber.setEditable(false);  T_BankNumber.setDisabledTextColor(Color.BLACK);		
+			
+				
+				
+				
+				
+				
+				
+				
 		
-		T_Principal.setEditable(false);  T_Principal.setDisabledTextColor(Color.BLACK);		
-		T_EmpInsurance.setEditable(false);  T_EmpInsurance.setDisabledTextColor(Color.BLACK);		
-		T_Allowance.setEditable(false);  T_Allowance.setDisabledTextColor(Color.BLACK);		
-		T_HealthInsurance.setEditable(false);  T_HealthInsurance.setDisabledTextColor(Color.BLACK);		
-		T_TotalAllowance.setEditable(false);  T_TotalAllowance.setDisabledTextColor(Color.BLACK);		
-		T_SalaryFull.setEditable(false);  T_SalaryFull.setDisabledTextColor(Color.BLACK);		
+				
+				
+				
+				
+				
+				
 		
 	
 //		M_Monthly.setEnabled(false); 
